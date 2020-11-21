@@ -1,8 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: componente-c
-  description: Componente c
+  name: componente-d
+  description: Componente d
+  annotations:
+    backstage.io/techdocs-ref: value
+    backstage.io/kubernetes-id: value
+    github.com/project-slug: value
   tags:
     - php
 spec:
