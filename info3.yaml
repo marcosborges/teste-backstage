@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: componente-a
-  description: Componente A
+  name: componente-c
+  description: Componente c
   tags:
     - php
 spec:
