@@ -13,4 +13,4 @@ spec:
 #  lifecycle: deprecated
   owner: tribe-collection-recovery
   definition:
-    $text: "http://"
+    $text: "http://localhost"
