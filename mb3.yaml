@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: midway-collection-agreement-billet-facade
+  description: API create using java/api-helm-k8s archetype
+  tags:
+    - CAC
+spec:
+  type: openapi
+  lifecycle: production
+#  lifecycle: experimental
+#  lifecycle: deprecated
+  owner: tribe-collection-recovery
+  definition:
+    $text: "http://localhost"
