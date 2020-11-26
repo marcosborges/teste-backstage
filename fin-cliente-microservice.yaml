@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: fin-cliente-microservice
+  description: Description of fin-cliente-microservice
+  annotations:
+    backstage.io/techdocs-ref: value
+    backstage.io/kubernetes-id: value
+  tags:
+    - java
+    - springboot
+    - legacy
+    - api
+    - restfull
+spec:
+  type: service
+  lifecycle: production
+  owner: financial  
