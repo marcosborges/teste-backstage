@@ -6,7 +6,7 @@ metadata:
 
   # https://backstage.io/docs/features/software-catalog/well-known-annotations
   annotations:
-    backstage.io/techdocs-ref: 
+    backstage.io/techdocs-ref: value
     sonarqube.org/project-key: midway-collection-agreement-billet-facade
 
   tags:
