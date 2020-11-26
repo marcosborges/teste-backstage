@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: API
+kind: Component
 metadata:
   name: fin-cliente-microservice
   description: Description of fin-cliente-microservice
@@ -15,4 +15,4 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: financial  
+  owner: financial
