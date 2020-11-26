@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: midway-collection-agreement-billet-facade
+  description: API create using java/api-helm-k8s archetype
+
+  # https://backstage.io/docs/features/software-catalog/well-known-annotations
+  annotations:
+    backstage.io/techdocs-ref: value
+    sonarqube.org/project-key: midway-collection-agreement-billet-facade
+
+  tags:
+    - cac
+    - java
+    - springboot
+    - midway
+    - legacy
+spec:
+  type: openapi
+  lifecycle: production
+#  lifecycle: experimental
+#  lifecycle: deprecated
+  owner: tribe-collection-recovery
+  definition:
+    $text: http://localhost
