@@ -10,7 +10,11 @@ metadata:
     sonarqube.org/project-key: midway-collection-agreement-billet-facade
 
   tags:
-    - CAC
+    - cac
+    - java
+    - springboot
+    - midway
+    - legacy
 spec:
   type: openapi
   lifecycle: production
