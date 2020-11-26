@@ -16,3 +16,5 @@ spec:
   type: service
   lifecycle: production
   owner: financial
+  definition:
+    $text: "http://localhost"
