@@ -3,9 +3,13 @@ kind: Component
 metadata:
   name: artist-web
   description: The place to be, for great artists
+tags:
+  - service
+  - cac
+  - test
 spec:
   type: website
   lifecycle: production
-  owner: artist-relations@example.com
+  owner: cac
   implementsApis:
     - artist-api
